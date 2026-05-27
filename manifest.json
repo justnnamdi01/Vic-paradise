@@ -1,0 +1,37 @@
+{
+  "name": "Vic Paradise Rental Car - Premium Car Rental in Mauritius",
+  "short_name": "Vic Paradise",
+  "description": "Premium car rental services in Mauritius. Luxury BMW, Suzuki fleet with best rates and exceptional service.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#DC2626",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "en",
+  "icons": [],
+  "categories": ["business", "travel", "transportation"],
+  "shortcuts": [
+    {
+      "name": "Book a Car",
+      "short_name": "Book",
+      "description": "Quick booking for car rental",
+      "url": "/#fleet",
+      "icons": []
+    },
+    {
+      "name": "Our Fleet",
+      "short_name": "Fleet",
+      "description": "View available vehicles",
+      "url": "/#brands",
+      "icons": []
+    },
+    {
+      "name": "Contact Us",
+      "short_name": "Contact",
+      "description": "Get in touch with our team",
+      "url": "/#contact",
+      "icons": []
+    }
+  ]
+}

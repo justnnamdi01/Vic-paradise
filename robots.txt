@@ -1,0 +1,36 @@
+# Vic Paradise Rental Car - Robots.txt
+# Premium Car Rental Services in Mauritius
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://vicparadiserentalcar.com/sitemap.xml
+
+# Allow search engine crawling of important pages
+Allow: /
+Allow: /admin
+Allow: /tracking
+Allow: /fleet
+Allow: /services
+Allow: /about
+Allow: /contact
+
+# Crawl-delay for better server performance
+Crawl-delay: 1
+
+# Block unnecessary crawling of development files
+Disallow: /_next/
+Disallow: /api/
+Disallow: /.well-known/
+
+# Allow specific beneficial crawling
+Allow: /public/
+Allow: /images/
+Allow: /*.jpg
+Allow: /*.png
+Allow: /*.webp
+Allow: /*.svg
+
+# Host directive
+Host: https://vicparadiserentalcar.com
