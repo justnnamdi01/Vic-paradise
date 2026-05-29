@@ -1,6 +1,6 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "out",
-  "installCommand": "npm install",
-  "framework": "nextjs"
+  "buildCommand": "echo 'Static files already built'",
+  "outputDirectory": ".",
+  "public": true,
+  "framework": null
 }
