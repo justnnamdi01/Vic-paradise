@@ -9,7 +9,7 @@
     "export": "next export"
   },
   "engines": {
-    "node": "18.x"
+    "node": "22.x"
   },
   "dependencies": {
     "next": "^14.0.0",
